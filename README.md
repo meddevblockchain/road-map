@@ -1,4 +1,4 @@
-# Med-Dev.io Software Roadmap
+# Med-Dev.io Software Roadmap v1.3
 -----------------------
 
 This document outlines the development plan from a high level and will be updated as progress is made toward version 1.0. It should be noted that this roadmap applies only to the basic services needed for the blockchain to begin tracking of devices and billing teams for FDA regulated type 1 and type 2 devices. Seperate road maps will be issued to cover other regulatory regimes when the regimes have finalized their requirements.
@@ -20,7 +20,7 @@ Create a simple verification node to receive a unique identifying code and check
 ##Full Node
 Create a Full node to record transactions
 
-# Phase 2 - Assess EOS.io as a viable system
+# Phase 2 - Assess EOS.io as a Viable System
 Is it possible to create the simple Blockchain above on EOS.io yet? Yes/no
 If no:
   - Option A - Hold; EOS.io looks promising but needs work... we'll wait it out
@@ -28,23 +28,23 @@ If no:
   
 If Yes:
 
-# Phase 3 - Tag Creation and integration
+# Phase 3 - Tag Creation and Integration
 
-##Tag nodes
+##Tag Nodes
 
 Generate the parent codes that represent every item being tracked.
 
-##Tag integration
+##Tag Integration
 
 Simple nodes and verfication nodes will perform actions and report back by using contracts that identify both the individual and the Tag being used.
 
-# Phase 4 - Complex data
+# Phase 4 - Complex Data
 
-##Simple verification node rules
+##Simple Verification Node Rules
 
 Add rules to check data formats and routing information to Tags based on the code structure
 
-##Simple contracting node - complex data
+##Simple Contracting Node - Complex Data
 
 Allow simple contracting node to represent scanning handsets. Data becomes dynamic and unpredictable.
 
@@ -69,15 +69,15 @@ Create two interfaces into the FDA
   - Realtime; instant checking for individual users who are about to operate
   - Bulk download; storing full product data for disection and distribution to nodes
   
-##Integrate FDA checking 
+##Integrate FDA Checking 
 
 Take directions from simple verification node to allow sysetm to check with FDA. Later this will allow direction to different oracle nodes - eg manufacturer catalogues, other regulators, or external blockchains if the code is not recognized
 
-# Phase 5 - Beta testing, blockchain integrity, open source docmentation
+# Phase 5 - Beta testing, Blockchain Integrity, open source Documentation
 
 Is the transaction log accurate? Tools and testing to prove med-dev.io blockchain with live data
 
-Hpw to plug in, full details on contract formats, third party integration.
+How to plug in, full details on contract formats, third party integration.
 
 SDC
 
