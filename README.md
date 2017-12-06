@@ -1,4 +1,4 @@
-Med-Dev.io Software Roadmap
+# Med-Dev.io Software Roadmap
 -----------------------
 
 This document outlines the development plan from a high level and will be updated as progress is made toward version 1.0. It should be noted that this roadmap applies only to the basic services needed for the blockchain to begin tracking of devices and billing teams for FDA regulated type 1 and type 2 devices. Seperate road maps will be issued to cover other regulatory regimes when the regimes have finalized their requirements.
@@ -77,6 +77,8 @@ Take directions from simple verification node to allow sysetm to check with FDA.
 
 Is the transaction log accurate? Tools and testing to prove med-dev.io blockchain with live data
 
-Hpw to plug in, full details on contract formats, thrid party integration.
+Hpw to plug in, full details on contract formats, third party integration.
+
+SDC
 
 - ends -
